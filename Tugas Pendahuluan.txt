@@ -1,0 +1,158 @@
+1. apa pengertian HTML ? Tuliskan Struktur Penulisan dokumen HTML.
+
+2. apa yang anda ketahui tentang HTML 5 ? jelaskan dan tuliskan struktur penulisan dokumen HTML 5
+
+3. tuliskan contoh tag HTML, berserta fungsi atau kegunaannya, minimal 30 macam tag.
+
+4. Tuliskan Tag tag tambahan yang ada dalam HTML5, dan sebutkan apa kegunaanya
+
+
+Jawaban :
+1. HTMl atau (Hypertext Markup Language) adalah bahasa pemrograman yang digunakan untuk membuat halaman web dan aplikasi web.
+struktur dalam HTML adalah :
+
+* Deklarasi awal : <!doctype html> 
+doctype merupakan atribut utama dalam membuat dokumen html
+
+* Tag : <html> </html> 
+Setiap dokumen HTML dimulai dengan tag <html> dan diakhiri dengan tag </html>. Semua atribut atau tag HTML lainnya ditempatkan di dalam tag <html> tersebut. 
+
+*tag : <head> </head>
+digunakan untuk menulis informasi tentang dokumen HTML yang dibuat, seperti judul halaman, stylesheet, meta tag, dan lain lain.
+
+*tag : <body> </body>
+digunakan untuk mengisi halaman web yang ingin dibuat
+
+Contoh Dokumen HTML :
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Perkuliahan Pemrograman Web pertemuan-1</title>
+    </head>
+    <body>
+            <div class="header">
+                <div class="header logo"><h1>Perkuliahan PEMWEB Pertemuan 1</h1></div>
+                <div class="Header list">
+                    <ul>
+                        <li>Pembukaan Perkuliahan</li>
+                        <li>Isi perkuliahan</li>
+                        <li>Akhir Perkuliahan</li>
+                    </ul>
+                </div>
+                <div class="Table list">
+                    <h3>Mahasiswa PEMWEB C081</h3>
+                    <table border="1">
+                        <tr>
+                            <td>Nama</td>
+                            <td>NPM</td>
+                        </tr>
+                        <tr>
+                            <td>VIeri</td>
+                            <td>21081010140</td>
+                        </tr>
+                    </table>
+
+                <div class="Main">
+                    <a href="index.html">Biodata</a>
+                    <p>Jadi pada tanggal 14 februai 2023, hari ini diadakan perkuliahan PEMWEB di kelas C081</p>
+                    <p>Perkuliahan di mulai dari pukul 10.00 dan berakhir pada pukul 12.00</p>
+                </div>
+                </div>
+            </div>
+    </body>
+</html>
+
+2. HTML5 adalah versi terbaru dari bahasa HTML yang dimana HTML5 dapat menampilkan video dan audio secara langsung tanpa menggunakan perantara pihak ketiga (Adobe Flash Player),
+dan fitur ini tidak terdapat pada HTML sebelumnya 
+Struktur HTML5 :
+sama seperti penulisan HTML pada umum nya akan tetapi ada berapa tambahan
+
+* Deklarasi awal : <!doctype html> 
+doctype merupakan atribut utama dalam membuat dokumen html
+
+* Tag : <html> </html> 
+Setiap dokumen HTML dimulai dengan tag <html> dan diakhiri dengan tag </html>. Semua atribut atau tag HTML lainnya ditempatkan di dalam tag <html> tersebut. 
+
+*tag : <head> </head>
+tag ini digunakan untuk menulis informasi tentang dokumen HTML yang dibuat, seperti judul halaman, stylesheet, meta tag, dan lain lain.
+
+*tag : <body> </body>
+tag ini digunakan untuk mengisi halaman web yang ingin dibuat
+
+*tag : <main> </main> 
+Tag ini digunakan untuk menampilkan konten utama halaman.
+
+*tag : <header> </header>
+tag ini digunakan untuk menampilkan header atau bagian atas halaman, biasanya berisi judul dan menu navigasi.
+
+Contoh Dokumen HTML5 :
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Perkuliahan Pemrograman Web pertemuan-1</title>
+    </head>
+    <body>
+            <header>
+                <h1>Perkuliahan PEMWEB Pertemuan 1</h1>
+                    <ul>
+                        <li>Pembukaan Perkuliahan</li>
+                        <li>Isi perkuliahan</li>
+                        <li>Akhir Perkuliahan</li>
+                    </ul>
+            </header>
+                
+                <main>
+                    <a href="index.html">Biodata</a>
+                    <p>Jadi pada tanggal 14 februai 2023, hari ini diadakan perkuliahan PEMWEB di kelas C081</p>
+                    <p>Perkuliahan di mulai dari pukul 10.00 dan berakhir pada pukul 12.00</p>
+                </main>
+     </body>
+</html>
+
+3. macam macam tag dalam HTML :
+- <!DOCTYPE>	= Tag untuk menentukan tipe dokumen
+- <html>	= Tag untuk membuat sebuah dokumen HTML
+- <title>	= Tag untuk membuat judul dari sebuah halaman
+- <body>	= Tag untuk membuat tubuh dari sebuah halaman
+- <h1> to <h6>	= Tag untuk membuat heading
+- <p>		= Tag untuk membuat paragraf
+- <br>		= Memasukan satu baris putus
+- <hr>		= Tag untuk membuat perubahan dasar kata didalam isi
+- <!--...-->	= Tag untuk membuat komentar
+- <ul>		= Tag untuk membuat daftar dengan selain nomor
+- <ol>		= Tag untuk membuat daftar dengan nomor
+- <li>		= Tag untuk membuat sebuah item daftar
+- <dir>		= Tag untuk membuat sebuah daftar direktori (tidak disupport lagi di HTML5)
+- <dl>		= Tag untuk membuat sebuah daftar definisi
+- <dt>		= Tag untuk membuat istilah (item) dalam daftar definisi
+- <menu>	= Tag untuk membuat deskripsi dari item dalam daftar definisi
+- <table>	= Tag untuk membuat tabel
+- <caption>	= Tag untuk membuat sebuah caption tabel
+- <th>		= Tag untuk membuat sebuah sel header tabel
+- <tr>		= Tag untuk membuat baris dalam sebuah tabel
+- <td>		= Tag untuk membuat sel dalam sebuah tabel
+- <thead>	= Mengelompokan isi header dalam sebuah tabel
+- <tbody>	= Mengelompokanisi tubuh dalam sebuah tabel
+- <tfoot>	= Mengelompokan isi footer dalam sebuah tabel
+- <col>		= Menentukan properti kolom untuk setiap kolom dalam elemen <colgroup>
+- <colgroup>	= Menentukan kelompok dari satu atau lebih kolom dalam sebuah tabel untuk diformat
+- <style>	= Tag untuk membuat informasi style untuk dokumen
+- <div>		= Tag untuk membuat sebuah bagian dalam dokumen
+- <span>	= Tag untuk membuat sebuah bagian dalam dokumen
+- <script>	= Tag untuk membuat script di sisi klien
+- <noscript>	= Tag untuk membuat sebuah konten alternatif bagi pengguna yang tidak mendukung script di sisi klien
+- <script>	= Tag untuk membuat script di sisi klien
+- <noscript>	= Tag untuk membuat sebuah konten alternatif bagi pengguna yang tidak mendukung script di sisi klien
+
+4. tag tambahan HTML 5 : 
+- <header>	= Tag untuk membuat sebuah header untuk dokumen atau bagian (tag baru HTML5)
+- <footer>	= Tag untuk membuat footer untuk dokumen atau bagian (tag baru HTML5)
+- <hgroup>	= Pengelompokan elemen heading (<h1> sampai <h6>) (tag baru HTML5)
+- <section>	= Tag untuk membuat bagian dalam dokumen (tag baru HTML5)
+- <article>	= Tag untuk membuat sebuah artikel (tag baru HTML5)
+- <aside>	= Tag untuk membuat konten lain selain dari konten halaman (tag baru HTML5)
+- <details>	= Tag untuk membuat rincian tambahan yang pengguna dapat lihat atau sembunyikan (tag baru HTML5)
+- <dialog>	= Tag untuk membuat sebuah kotak dialog atau jendela (tag baru HTML5)
+- <summary>	= Tag untuk membuat sebuah judul terlihat untuk elemen <detil> (tag baru HTML5)

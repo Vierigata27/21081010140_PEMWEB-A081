@@ -1,0 +1,6 @@
+1. apa perbedaan dari tag <div> dengan tag <p>
+
+perbedaannya adalah tag <div> digunakan untuk membuat kotak terpisah dalam halaman web, 
+sedangkan tag <p> digunakan untuk menandai teks tersebut merupakan sebuah paragraf. 
+jadi jika terdapat 2 buah div makan output yang di tampilkan adalah 2 kata yang berpisah baris (di enter)
+dan jika terdapat 2 buah p maka output yang di tampilkan adalah 2 kata yang berpisah antar paragraf
