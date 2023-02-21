@@ -1,0 +1,2 @@
+setelah saya mencoba untuk membuat website index hal tersulit adalah menempatkan text 
+pada kolom, di karenakan index yang saya buat belum dikatakan sempurna

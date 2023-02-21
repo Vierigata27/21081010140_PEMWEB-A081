@@ -1,0 +1,1 @@
+jika saya merubah value pada tag table maka yang berubah adalah isi dari tabel tersebut
